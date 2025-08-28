@@ -18,5 +18,5 @@ match num:
     case 7:
         print("Saturday")
     case _:
-
         print("Invalid.")
+
