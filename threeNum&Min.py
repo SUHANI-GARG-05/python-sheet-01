@@ -4,7 +4,6 @@ A = float(input("Enter number A: "))
 B = float(input("Enter number B: "))
 C = float(input("Enter number C: "))
 
-# Find minimum
 if A <= B and A <= C:
     minimum = A
 elif B <= A and B <= C:
@@ -12,5 +11,5 @@ elif B <= A and B <= C:
 else:
     minimum = C
 
-# Display result
 print("The minimum number is:", minimum)
+
